@@ -1,5 +1,5 @@
 deployment:
-  imageVersion: stable-bookworm-perl
-  replicas: 2
+  imageVersion: stable-perl
+  replicas: 3
 service:
   port: 80

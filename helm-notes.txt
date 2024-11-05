@@ -6,3 +6,7 @@ description: this Chart is to manage nginx
 helm install nginx .   --> to install
 
 helm list --> to see the list
+
+if version chane is there just update the version values file and give new version number in Chart file
+
+helm upgrade nginx .  --> to upgrade
