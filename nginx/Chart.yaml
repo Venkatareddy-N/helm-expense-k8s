@@ -1,5 +1,4 @@
 apiVersion: v1
-kind: nginx
+name: nginx
 version: 0.0.1
 description: this Chart is to manage nginx
-
