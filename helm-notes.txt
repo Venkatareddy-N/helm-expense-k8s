@@ -25,6 +25,9 @@ helm rollback nginx 1 --> rollback to 1 version
 
 helm uninstall nginx --> to remove
 =======================
+1st need to create namespace
+
+kubectl apply -f namespace.yaml
 
 mysql
 -----
