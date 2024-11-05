@@ -3,6 +3,7 @@ name: nginx
 version: 0.0.1
 description: this Chart is to manage nginx
 
+========================
 helm install nginx .   --> to install
 
 helm list --> to see the list
@@ -10,3 +11,20 @@ helm list --> to see the list
 if version chane is there just update the version values file and give new version number in Chart file
 
 helm upgrade nginx .  --> to upgrade
+
+helm history nginx --> to see all verions fo nginx
+
+REVISION        UPDATED                         STATUS          CHART           APP VERSION     DESCRIPTION
+1               Tue Nov  5 01:04:30 2024        superseded      nginx-0.0.1                     Install complete
+2               Tue Nov  5 01:07:30 2024        superseded      nginx-0.0.1                     Upgrade complete
+3               Tue Nov  5 01:09:23 2024        deployed        nginx-0.0.2                     Upgrade complete
+
+
+helm rollback nginx --> rollback to previous version 
+
+helm rollback nginx 1 --> rollback to 1 version 
+
+helm uninstall nginx --> to remove
+=======================
+
+
