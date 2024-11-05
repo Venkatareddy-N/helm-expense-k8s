@@ -1,0 +1,8 @@
+apiVersion: v1
+name: nginx
+version: 0.0.1
+description: this Chart is to manage nginx
+
+helm install nginx .   --> to install
+
+helm list --> to see the list
