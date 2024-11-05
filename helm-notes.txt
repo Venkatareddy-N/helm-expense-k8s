@@ -19,7 +19,6 @@ REVISION        UPDATED                         STATUS          CHART           
 2               Tue Nov  5 01:07:30 2024        superseded      nginx-0.0.1                     Upgrade complete
 3               Tue Nov  5 01:09:23 2024        deployed        nginx-0.0.2                     Upgrade complete
 
-
 helm rollback nginx --> rollback to previous version 
 
 helm rollback nginx 1 --> rollback to 1 version 
@@ -27,4 +26,21 @@ helm rollback nginx 1 --> rollback to 1 version
 helm uninstall nginx --> to remove
 =======================
 
+mysql
+-----
+helm install mysql .
 
+helm uninstall mysql
+
+backend
+-------
+helm install backend .
+
+helm uninstall backend
+
+frontend
+--------
+
+helm install frontend .
+
+helm uninstall frontend

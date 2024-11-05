@@ -1,2 +1,2 @@
 deployment:
-  imageVersion: "1.0"
+  imageVersion: v1
